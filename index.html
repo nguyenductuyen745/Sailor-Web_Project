@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sailor</title>
+    <link rel="shortcut icon" href="./images/logo-boostrap.png">
+    <link rel="stylesheet" href="./library/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./icon/fontawesome-free-5.12.1-web/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body> <!-- filter: grayscale(100); (Change all images to black and white (100% gray))-->
+    <div class="wrapper">
+        <header class="header bg-white">
+            <div class="container d-flex justify-content-between align-items-center">
+                <nav class="navbar px-0 navbar-expand-lg w-100">
+                    <a href="" class="navbar-brand logo raleway">SAILOR</a>
+                    <!-- Thẻ a bên dưới sẽ hiện khi <= 991px (để thay thế cho thẻ get start thứ 2)-->
+                    <a class="btn btn-get-start d-lg-none" style="margin: 0 70px 0 auto;">Get Started</a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-list">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <div class="navbar-collapse collapse" id="collapse-list">
+                        <ul class="navbar-nav poppins">
+                            <li class="nav-item">
+                                <a href="" class="nav-link title-color active-link">Home</a>
+                            </li>
+                            <li class="nav-item nav-item--menu">
+                                <a href="#child-menu"  data-toggle="collapse" class="nav-link link-hover">About 
+                                    <i class="fas ml-1 fa-angle-down"></i>
+                                </a>
+                                <ul class="list-inline nav-menu-child shadow-lg d-none d-lg-block">
+                                    <li class="nav-menu-child__item"><a class="text-decoration-none link-hover" href="">About us</a></li>
+                                    <li class="nav-menu-child__item"><a class="text-decoration-none link-hover" href="">Team</a></li>
+                                    <li class="nav-menu-child__item"><a class="text-decoration-none link-hover" href="">Testimonials</a></li>
+                                    <li class="nav-menu-child__item menu-child__item-last"><a class="text-decrodation-none link-hover" href="">Deep Drop Down <i class="fas fa-chevron-left ml-3"></i></a>
+                                        <ul class="list-inline nav-menu-grand-children shadow-lg">
+                                            <li class="menu-grand-children__item"><a class="text-decoration-none link-hover" href="">Deep Drop Down 1</a></li>
+                                            <li class="menu-grand-children__item"><a class="text-decoration-none link-hover" href="">Deep Drop Down 2</a></li>
+                                            <li class="menu-grand-children__item"><a class="text-decoration-none link-hover" href="">Deep Drop Down 3</a></li>
+                                            <li class="menu-grand-children__item"><a class="text-decrodation-none link-hover" href="">Deep Drop Down 4</a></li>
+                                            <li class="menu-grand-children__item"><a class="text-decrodation-none link-hover" href="">Deep Drop Down 5</a></li>           
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="list-inline d-lg-none collapse" id="child-menu">
+                                    <li class="nav-menu-child__item"><a class="text-decoration-none link-hover" href="">About us</a></li>
+                                    <li class="nav-menu-child__item"><a class="text-decoration-none link-hover" href="">Team</a></li>
+                                    <li class="nav-menu-child__item"><a class="text-decoration-none link-hover" href="">Testimonials</a></li>
+                                    <li class="nav-menu-child__item"><a class="text-decrodation-none link-hover" href="">Deep Drop Down</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link link-hover">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link link-hover">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link link-hover">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link link-hover">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link link-hover">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <a class="btn btn-get-start d-none d-lg-block">Get Started</a>
+            </div>
+        </header>
+        <div class="main">
+            <section class="banner">
+                <div class="container-fluid h-100 px-0">
+                    <div class="carousel slide carousel-fade" id="slide-images" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#slide-images" data-slide-to="0" class="active"></li>
+                            <li data-target="#slide-images" data-slide-to="1"></li>
+                            <li data-target="#slide-images" data-slide-to="2"></li>
+                        </ul>
+    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="background-image: url(./images/slide-1.jpg); background-size: cover; background-position: center top; background-repeat: no-repeat;">
+                                <div class="carousel-caption w-100 h-100">
+                                   <div class="container">
+                                        <h1 class="caption-title raleway">Welcome to Sailor</h1>
+                                        <p class="caption-text">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                                        <a href="" class="btn text-white raleway caption-link">Read More</a>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="background-image: url(./images/slide-2.jpg); background-size: cover; background-position: center top; background-repeat: no-repeat;">
+                                <div class="carousel-caption w-100 h-100">
+                                   <div class="container">
+                                        <h1 class="caption-title raleway">Lorem Ipsum Dolor</h1>
+                                        <p class="caption-text">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                                        <a href="" class="btn text-white raleway caption-link">Read More</a>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="background-image: url(./images/slide-3.jpg); background-size: cover; background-position: center top; background-repeat: no-repeat;">
+                                <div class="carousel-caption w-100 h-100">
+                                   <div class="container">
+                                        <h1 class="caption-title raleway">Sequi ea ut et est quaerat</h1>
+                                        <p class="caption-text">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                                        <a href="" class="btn text-white raleway caption-link">Read More</a>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <a href="#slide-images" class="carousel-control-prev" data-slide="prev">
+                            <div class="carousel-wrap">
+                                <span class="carousel-control-prev-icon"></span>
+                            </div>
+                        </a>
+                        <a href="#slide-images" class="carousel-control-next" data-slide="next">
+                            <div class="carousel-wrap">
+                                <span class="carousel-control-next-icon"></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <div class="row content">
+                        <div class="col-lg-6 about-title raleway">
+                            <h1>EUM IPSAM LABORUM DELENITI VELITENA</h1>
+                            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+                        </div>
+                        <div class="col-lg-6 about-text">
+                            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <ul class="about-list list-inline">
+                                <li class="about-item py-2 d-flex align-items-start"><i class="fas fa-check-double"></i><p class="my-0">Ullamco laboris nisi ut aliquip ex ea commodo consequa</p></li>
+                                <li class="about-item py-2 d-flex align-items-start"><i class="fas fa-check-double"></i><p class="my-0">Duis aute irure dolor in reprehenderit in voluptate velit</p></li>
+                                <li class="about-item py-2 d-flex align-items-start"><i class="fas fa-check-double"></i><p class="my-0">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p></li>
+                            </ul>
+                            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="clients">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                            <img class="client-item" src="./images/client-1.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                            <img class="client-item" src="./images/client-2.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                            <img class="client-item" src="./images/client-3.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                            <img class="client-item" src="./images/client-4.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                            <img class="client-item" src="./images/client-5.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+                            <img class="client-item" src="./images/client-6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="container">
+                    <div class="services-title">
+                        <span for="" class="services-title__small poppins d-flex align-items-center">
+                            SERVICE<hr style="width: 122px;">
+                        </span>
+                        <h1 class="services-title__large poppins">THE SERVICES WE OFFER</h1>
+                    </div>
+                    <div class="services-offers row">
+                        <div class="col-md-6">
+                            <div class="services-item d-flex">
+                                <div class="services-item__left">
+                                    <i class="fas fa-tv"></i>
+                                </div>
+                                <div class="services-item__right">
+                                    <h3 class="raleway">Lorem Ipsum</h3>
+                                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-item d-flex">
+                                <div class="services-item__left">
+                                    <i class="far fa-chart-bar"></i>
+                                </div>
+                                <div class="services-item__right">
+                                    <h3 class="raleway">Dolor Sitema</h3>
+                                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-item d-flex">
+                                <div class="services-item__left">
+                                    <i class="far fa-image"></i>
+                                </div>
+                                <div class="services-item__right">
+                                    <h3 class="raleway">Sed ut perspiciatis</h3>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-item d-flex">
+                                <div class="services-item__left">
+                                    <i class="fas fa-sliders-h"></i>
+                                </div>
+                                <div class="services-item__right">
+                                    <h3 class="raleway">Nemo Enim</h3>
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-item d-flex">
+                                <div class="services-item__left">
+                                    <i class="fas fa-globe-americas"></i>
+                                </div>
+                                <div class="services-item__right">
+                                    <h3 class="raleway">Magni Dolore</h3>
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-item d-flex">
+                                <div class="services-item__left">
+                                    <i class="far fa-calendar-alt"></i>
+                                </div>
+                                <div class="services-item__right">
+                                    <h3 class="raleway">Eiusmod Tempor</h3>
+                                    <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio">
+                <div class="container">
+                    <div class="portfolio-title">
+                        <span for="" class="portfolio-title__small poppins d-flex align-items-center">
+                            PORTFOLIO<hr style="width: 122px;">
+                        </span>
+                        <h1 class="portfolio-title__large poppins">RECENT WORKS</h1>
+                    </div>
+                    <ul class="portfolio-controller justify-content-center list-inline">
+                        <li class="portfolio-controller__item active" data-keyword="ALL">ALL</li>
+                        <li class="portfolio-controller__item" data-keyword="APP">APP</li>
+                        <li class="portfolio-controller__item" data-keyword="CARD">CARD</li>
+                        <li class="portfolio-controller__item" data-keyword="WEB">WEB</li>
+                    </ul>
+                    <div class="portfolio-controller_tab-content">
+                        <div class="tab-content__pane float-left" data-id="APP">
+                            <div class="content__pane-wrap">
+                                <img src="./images/portfolio-1.jpg">
+                                <div class="content__pane-detail-overlay">
+                                    <div class="pane-detail-overlay__content">
+                                        <h3 class="raleway">App 1</h3>
+                                        <i class="text-white-50">APP</i> <br />
+                                        <div class="overlay__content-link">
+                                            <a href=""><i class="fas fa-plus"></i></a>
+                                            <a href=""><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content__pane float-left" data-id="WEB">
+                            <div class="content__pane-wrap">
+                                <img src="./images/portfolio-2.jpg">
+                                <div class="content__pane-detail-overlay">
+                                    <div class="pane-detail-overlay__content">
+                                        <h3 class="raleway">Web 1</h3>
+                                        <i class="text-white-50">WEB</i> <br />
+                                        <div class="overlay__content-link">
+                                            <a href=""><i class="fas fa-plus"></i></a>
+                                            <a href=""><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content__pane float-right float-lg-left" data-id="APP">
+                            <div class="content__pane-wrap">
+                                <img src="./images/portfolio-3.jpg">
+                                <div class="content__pane-detail-overlay">
+                                    <div class="pane-detail-overlay__content">
+                                        <h3 class="raleway">App 2</h3>
+                                        <i class="text-white-50">APP</i> <br />
+                                        <div class="overlay__content-link">
+                                            <a href=""><i class="fas fa-plus"></i></a>
+                                            <a href=""><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content__pane tab-content__pane--group float-lg-right float-left">
+                            <div data-id="CARD">
+                                <div class="content__pane-wrap">
+                                    <img src="./images/portfolio-4.jpg">
+                                    <div class="content__pane-detail-overlay">
+                                        <div class="pane-detail-overlay__content">
+                                            <h3 class="raleway">Card 2</h3>
+                                            <i class="text-white-50">CARD</i> <br />
+                                            <div class="overlay__content-link">
+                                                <a href=""><i class="fas fa-plus"></i></a>
+                                                <a href=""><i class="fas fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-id="CARD">
+                                <div class="content__pane-wrap">
+                                    <img src="./images/portfolio-7.jpg">
+                                    <div class="content__pane-detail-overlay">
+                                        <div class="pane-detail-overlay__content">
+                                            <h3 class="raleway">Card 2</h3>
+                                            <i class="text-white-50">CARD</i> <br />
+                                            <div class="overlay__content-link">
+                                                <a href=""><i class="fas fa-plus"></i></a>
+                                                <a href=""><i class="fas fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-id="CARD">
+                                <div class="content__pane-wrap">
+                                    <img src="./images/portfolio-8.jpg">
+                                    <div class="content__pane-detail-overlay">
+                                        <div class="pane-detail-overlay__content">
+                                            <h3 class="raleway">Card 3</h3>
+                                            <i class="text-white-50">CARD</i> <br />
+                                            <div class="overlay__content-link">
+                                                <a href=""><i class="fas fa-plus"></i></a>
+                                                <a href=""><i class="fas fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="tab-content__pane float-right" data-id="WEB">
+                            <div class="content__pane-wrap">
+                                <img src="./images/portfolio-5.jpg">
+                                <div class="content__pane-detail-overlay">
+                                    <div class="pane-detail-overlay__content">
+                                        <h3 class="raleway">Web 2</h3>
+                                        <i class="text-white-50">WEB</i> <br />
+                                        <div class="overlay__content-link">
+                                            <a href=""><i class="fas fa-plus"></i></a>
+                                            <a href=""><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content__pane float-lg-left float-right" data-id="APP">
+                            <div class="content__pane-wrap">
+                                <img src="./images/portfolio-6.jpg">
+                                <div class="content__pane-detail-overlay">
+                                    <div class="pane-detail-overlay__content">
+                                        <h3 class="raleway">App 3</h3>
+                                        <i class="text-white-50">APP</i> <br />
+                                        <div class="overlay__content-link">
+                                            <a href=""><i class="fas fa-plus"></i></a>
+                                            <a href=""><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content__pane float-left" data-id="WEB">
+                            <div class="content__pane-wrap">
+                                <img src="./images/portfolio-9.jpg">
+                                <div class="content__pane-detail-overlay">
+                                    <div class="pane-detail-overlay__content">
+                                        <h3 class="raleway">Web 3</h3>
+                                        <i class="text-white-50">WEB</i> <br />
+                                        <div class="overlay__content-link">
+                                            <a href=""><i class="fas fa-plus"></i></a>
+                                            <a href=""><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="clear: both; padding: 30px 0px;"></div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="footer-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 footer-contact raleway">
+                            <h3 class="footer-contact__title">Sailor</h3>
+                            <address>A108 Adam Street <br />NY 535022, USA</address>
+                            <p><strong>Phone:</strong> +84936000614</p>
+                            <p><strong>Email:</strong> info@example.com</p>
+                            <div class="footer-contact__social">
+                                <a href="" class="footer-btn"><i class="fab fa-twitter"></i></a>
+                                <a href="" class="footer-btn"><i class="fab fa-facebook-f"></i></a>
+                                <a href="" class="footer-btn"><i class="fab fa-instagram"></i></a>
+                                <a href="" class="footer-btn"><i class="fab fa-skype"></i></a>
+                                <a href="" class="footer-btn"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4 class="footer-title">Useful Links</h4>
+                            <ul class="footer-list list-inline">
+                                <li class="footer-list__item">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="footer-list__item">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li class="footer-list__item">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li class="footer-list__item">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Terms of service</a>
+                                </li>
+                                <li class="footer-list__item">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 footer-services">
+                            <h4 class="footer-title">Our Services</h4>
+                            <ul class="footer-list list-inline">
+                                <li class="footer-list__item">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Web Design</a>
+                                </li>
+                                <li class="footer-list__item">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Web Development</a>
+                                </li>
+                                <li class="footer-list__item">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Product Management</a>
+                                </li>
+                                <li class="footer-list__item">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Marketing</a>
+                                </li>
+                                <li class="footer-list__item">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <a href="#">Graphic Design</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 footer-newsletter">
+                            <h4 class="footer-title">Our Newsletter</h4>
+                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                            <div class="input-group">
+                                <input type="text" class="form-control border-0">
+                                <divt class="input-group-append">
+                                    <button class="input-group-text border-0">Subscribe</button>
+                                </divt>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-description">
+                <div class="container">
+                    <div class="footer-copyright">&copy; Copyright <strong>Sailor</strong>. All Rights Reserved</div>
+                    <div class="footer-desinger">Designed by <a href="">TTT</a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="back-to-top btn">
+        <i class="fas fa-angle-down"></i>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="./library/js/bootstrap.bundle.min.js"></script>
+    <script src="./library/js/bootstrap.min.js.map"></script>
+    <script src="./javascript.js"></script>
+    <script>
+        portfolioController();
+        scrollAction()
+    </script>
+</body>
+</html>
