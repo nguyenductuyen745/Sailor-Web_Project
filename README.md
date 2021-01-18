@@ -1,2 +1,2 @@
 # Sailor-Web_Project
-Landing Page (https://sailor-project.web.app/)
+You can visit this project here (https://sailor-project.web.app/)
